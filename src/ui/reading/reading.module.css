@@ -1,0 +1,71 @@
+.reading {
+  font-size: 1.2em;
+  margin: 16px 0;
+}
+
+.reading,
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.intensity {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 33%);
+  width: 100%;
+}
+
+.item {
+  align-items: center;
+}
+
+.caption {
+  text-transform: capitalize;
+}
+
+.icon {
+  display: inline-block;
+  height: 48px;
+  mask-image: url(/assets/icons/bar-chart-2.svg);
+  mask-size: cover;
+  width: 48px;
+}
+
+.time {
+  font-weight: 700;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.actual {
+  mask-image: url(/assets/icons/eye.svg);
+}
+
+.forecast {
+  mask-image: url(/assets/icons/trending-up.svg);
+}
+
+.forecast,
+.very-low {
+  background-color: rgb(86, 188, 249);
+}
+
+.actual,
+.low {
+  background-color: rgb(96, 177, 119);
+}
+
+.moderate {
+  background-color: rgb(110, 156, 159);
+}
+
+.high {
+  background-color: rgb(237, 109, 82);
+}
+
+.very-high {
+  background-color: rgb(127, 23, 14);
+}
