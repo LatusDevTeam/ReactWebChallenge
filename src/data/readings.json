@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "from": "2018-01-20T12:00Z",
+      "to": "2018-01-20T12:30Z",
+      "intensity": {
+        "forecast": 266,
+        "actual": 263,
+        "index": "moderate"
+      }
+    },
+    {
+      "from": "2018-01-20T12:30Z",
+      "to": "2018-01-20T13:00Z",
+      "intensity": {
+        "forecast": 267,
+        "actual": 265,
+        "index": "high"
+      }
+    },
+    {
+      "from": "2018-01-20T13:00Z",
+      "to": "2018-01-20T13:30Z",
+      "intensity": {
+        "forecast": 214,
+        "actual": 231,
+        "index": "very low"
+      }
+    },
+    {
+      "from": "2018-01-20T13:30Z",
+      "to": "2018-01-20T14:00Z",
+      "intensity": {
+        "forecast": 287,
+        "actual": 298,
+        "index": "very high"
+      }
+    },
+    {
+      "from": "2018-01-20T14:30Z",
+      "to": "2018-01-20T15:00Z",
+      "intensity": {
+        "forecast": 231,
+        "actual": 238,
+        "index": "low"
+      }
+    }
+  ]
+}
